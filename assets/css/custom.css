@@ -1,0 +1,121 @@
+body{
+	font-family: "微软雅黑",inherit;
+
+}
+.container h2{
+	/*text-align: center;*/
+	/*float: left;*/
+	font-family: "微软雅黑",inherit;
+	border-bottom: 2px solid #000;
+  	padding-bottom: 10px;
+}
+.desc{
+	padding-top: 15px;
+}
+.release{
+	margin-bottom: 10px;
+	background: rgb(80,80,80);
+	/*border-color: rgb(80,80,80);*/
+	border: 0;
+}
+#exampleModal{
+	/*position: relative;*/
+	z-index: 100000;
+}
+.release:hover{
+	background: rgb(47,47,47);
+}
+.lost-item .col-lg-2{
+	padding: 10px;
+}
+.lost-item .lost-content-phone{
+	font-size: 20px;
+}
+.lost-content .lost-content-article{
+	text-indent: 2em;
+	color: #95a5a6;
+}
+
+.classroom .classroom-condition .form-group{
+	margin-left: 0;
+	margin-right: 0;
+}
+.classroom .classroom-title h4{
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size: 24px;
+	padding: 14px;
+	background: rgba(236,231,231,0.8);
+	/*float: left;*/
+	border-radius: 4px;
+}
+
+.modal-enter{
+	background: rgb(80,80,80);
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*自习室查询页面*/
+
+.classroom-title{
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size: 24px;
+	/*padding: 14px;*/
+	/*background: rgba(236,231,231,0.8);*/
+	/*float: left;*/
+	border-radius: 4px;
+	margin-bottom:10px;
+	padding: 0;
+
+}
+#lblbt{
+	color: red;
+}
+table{
+	margin-bottom: 10px;
+}
+table tr{
+	line-height: 35px;
+}
+table tr td:nth-child(n+6){
+	display: none;
+}
+table tr:nth-child(odd){
+
+}
+table tr:nth-child(even){
+	background-color: #f9f9f9;
+}
+
+/*失物招领查询*/
+.goods_nav{
+	border-radius: 0;
+}
+.goods_nav:before,.goods_nav:after{
+	display: none;
+} 
+.goods_nav h2{
+	font-family: '微软雅黑';
+  text-align: center;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 7px;
+}
+.lost-item{
+	margin:0 auto;
+}
+.tips{
+  text-align: center;
+  font-size: 1.3em;
+  font-family: '微软雅黑';
+}
